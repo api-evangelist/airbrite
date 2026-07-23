@@ -1,0 +1,37 @@
+generated: '2026-07-17'
+method: searched
+source: https://registry.npmjs.org/airbrite
+note: >-
+  Airbrite is defunct (product later became "Celery"; primary domains
+  airbrite.io / getairbrite.com no longer resolve, airbrite.com is a parked
+  domain). These client libraries remain published on the public registries and
+  in the github.com/airbrite organization, attributed to the company. They are
+  unmaintained (last npm publish 2016; last org activity ~2016).
+packages:
+  - language: javascript
+    registry: npm
+    name: airbrite
+    url: https://www.npmjs.com/package/airbrite
+    install: npm install airbrite
+    version: 0.1.3
+    repository: https://github.com/airbrite/airbrite-node
+    author: Airbrite <hello@airbriteinc.com>
+    official: true
+    status: unmaintained
+  - language: javascript
+    registry: github
+    name: airbrite-js
+    url: https://github.com/airbrite/airbrite-js
+    description: Airbrite JS SDK (DEPRECATED)
+    official: true
+    status: deprecated
+  - language: python
+    registry: pypi
+    name: airbrite
+    url: https://pypi.org/project/airbrite/
+    install: pip install airbrite
+    version: '0.1'
+    homepage: https://www.airbrite.io/
+    author: Elvio Toccalino
+    official: false
+    status: unmaintained

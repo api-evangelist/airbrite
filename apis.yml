@@ -1,20 +1,67 @@
 aid: airbrite
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airbrite.png
 name: Airbrite
-description: Airbrite is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Airbrite was an early commerce-infrastructure startup (a16z portfolio) that
+  offered a hosted order-management and payments/commerce backend API for
+  merchants and developers, with JavaScript and Python client SDKs and an
+  embeddable checkout. The product was later rebranded and pivoted to "Celery"
+  (pre-order / crowdfunding commerce). Airbrite is now defunct: its primary
+  developer domains (airbrite.io, getairbrite.com) no longer resolve and
+  airbrite.com is a parked domain, so there is no live developer portal, API
+  reference, or hosted API to enrich. What remains verifiable is the public
+  github.com/airbrite organization and the client libraries still published on
+  npm and PyPI. This profile records that residual, evidence-backed surface;
+  most enrichment artifact types are legitimately empty because the provider no
+  longer operates.
 url: https://raw.githubusercontent.com/api-evangelist/airbrite/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence: >-
+  airbrite.io/getairbrite.com/api.airbrite.io have no DNS (2026-07-17);
+  airbrite.com returns a parked lander; pivoted to Celery (github.com/airbrite
+  celery-api, celery-js). SDKs remain on npm (airbrite 0.1.3) and PyPI.
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Commerce
+- Order Management
+- Payments
+- Checkout
+- eCommerce
+- Defunct
+- SDKs
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: GitHubOrganization
+  url: https://github.com/airbrite
+- type: Packages
+  url: packages/airbrite-packages.yml
+- type: SDKs
+  url: packages/airbrite-packages.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
