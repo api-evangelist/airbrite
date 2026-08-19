@@ -35,7 +35,7 @@ x-status-evidence: >-
   airbrite.io/getairbrite.com/api.airbrite.io have no DNS (2026-07-17);
   airbrite.com returns a parked lander; pivoted to Celery (github.com/airbrite
   celery-api, celery-js). SDKs remain on npm (airbrite 0.1.3) and PyPI.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
