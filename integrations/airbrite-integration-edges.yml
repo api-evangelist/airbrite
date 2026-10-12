@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/airbrite/integrations
+- https://n8n.io/integrations/airbrite/
+- https://composio.dev/toolkits/airbrite
+- https://monid.ai/tools/airbrite
+checked:
+- https://composio.dev/toolkits/airbrite
+- https://monid.ai/tools/airbrite
+- https://n8n.io/integrations/airbrite/
+- https://zapier.com/apps/airbrite/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
